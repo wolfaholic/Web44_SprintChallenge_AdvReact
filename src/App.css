@@ -46,6 +46,7 @@ h1 {
 
 .plant-card {
   display: flex;
+  flex-flow: row wrap;
   width: 50%;
   padding: 32px 0;
 }

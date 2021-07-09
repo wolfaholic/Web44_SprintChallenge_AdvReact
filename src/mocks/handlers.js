@@ -8,7 +8,7 @@ const plantsData = {
       scientificName: 'Peperomia caperata rosso',
       difficulty: 'easy',
       light: 'direct',
-      img: 'https://cdn.shopify.com/s/files/1/2781/9558/products/PEPEROMIA_ROSSO-1_800x.png?v=1587156590',
+      img: 'https://cdn.diys.com/wp-content/uploads/2020/10/Peperomia-Rosso.jpg',
       sizes: [
         'small'
       ],

@@ -29,20 +29,20 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 ### Task 1: Project Setup
 
 #### Project Cloning
-* [ ] Fork and clone this repository.
-* [ ] Create a new working branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [x] Fork and clone this repository.
+* [x] Create a new working branch: git checkout -b `<firstName-lastName>`.
+* [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x] Push commits: git push origin `<firstName-lastName>`.
 
 #### Server Code Setup
-* [ ] Run `npm install` to download dependencies for the server.
-* [ ] Run the server using `npm start`.
-*[ ] Open a new browser tab and navigate to `http://localhost:3333/plants` - if you see a JSON object with plants data, then you know the server is running 👍
+* [x] Run `npm install` to download dependencies for the server.
+* [x] Run the server using `npm start`.
+* [x] Open a new browser tab and navigate to `http://localhost:3333/plants` - if you see a JSON object with plants data, then you know the server is running 👍
 
 #### Client Code Setup
-- [ ] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
-- [ ] Still inside the `client` folder run `npm run start` to run the client application.
-- [ ] Your browser should open up the project as normal
+- [x] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
+- [x] Still inside the `client` folder run `npm run start` to run the client application.
+- [x] Your browser should open up the project as normal
 
 #### Test Runner Setup
 - [ ] In the final terminal window, make sure you are in the `client` folder still
@@ -51,10 +51,10 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 
 ### Task 2: CodeGrade Setup
 
-* [ ] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
-* [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
-* [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
-* [ ] Check to see that Codegrade has accepted your git submission.
+* [x] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
+* [x] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
+* [x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
+* [x] Check to see that Codegrade has accepted your git submission.
 
 ### Task 3: Project Requirements
 
@@ -64,9 +64,9 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 
   Display a list of the plants from the server. This should be done in the class component `PlantList`.
 
-* [ ] In the `PlantList` class component, on mount fetch data from the server you now have running - the data can be fetched from `http://localhost:3333/plants`
-* [ ] Set the data to a state property called `this.state.plants`
-* [ ] The render function is already built and styled. Once the data is on the state, you will see the list of plants, and you will have the functionality to add a plant to the cart
+* [x] In the `PlantList` class component, on mount fetch data from the server you now have running - the data can be fetched from `http://localhost:3333/plants`
+* [x] Set the data to a state property called `this.state.plants`
+* [x] The render function is already built and styled. Once the data is on the state, you will see the list of plants, and you will have the functionality to add a plant to the cart
 
 #### Shopping Cart
 
@@ -76,7 +76,7 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 
   The form is working, but it is currently controlled by local stateful logic. We want to control this form with a custom hook.
 
-* [ ] Build a custom hook called `useForm`, and use it in your CheckoutForm component to control the form's stateful logic.
+* [x] Build a custom hook called `useForm`, and use it in your CheckoutForm component to control the form's stateful logic.
 * [ ] You built a useForm hook in the guided project this week. You will probably need to use that as a guide to complete this step. However, try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
 
 #### Testing the Checkout Form
