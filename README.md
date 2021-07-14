@@ -77,12 +77,12 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
   The form is working, but it is currently controlled by local stateful logic. We want to control this form with a custom hook.
 
 * [x] Build a custom hook called `useForm`, and use it in your CheckoutForm component to control the form's stateful logic.
-* [ ] You built a useForm hook in the guided project this week. You will probably need to use that as a guide to complete this step. However, try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
+* [x] You built a useForm hook in the guided project this week. You will probably need to use that as a guide to complete this step. However, try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
 
 #### Testing the Checkout Form
-* [ ] Build out the tests listed in `CheckoutForm.test.js`. You will need to make sure they are testing what the test title implies they are testing
+* [x ] Build out the tests listed in `CheckoutForm.test.js`. You will need to make sure they are testing what the test title implies they are testing
 
-* [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working
+* [x ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working
 
   **Notes:**
 * You are welcome to create additional files but **do not move or rename existing files** or folders.
